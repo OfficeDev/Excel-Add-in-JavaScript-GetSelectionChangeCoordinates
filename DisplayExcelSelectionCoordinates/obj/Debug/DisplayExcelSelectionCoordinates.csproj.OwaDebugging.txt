@@ -1,0 +1,7 @@
+False
+88de3800-2d89-4bb0-bd4a-2ef7aed2a8b38afa5f1d-7b5d-4fc6-a4a1-5d2d9069b399
+{33f415d7-cd9e-4ddd-ba13-0e5f77a03bb8}{4dd55fbd-de60-4068-9767-fb718a6de825}
+{90455305-65ae-40e6-8326-85e72de7d29c}
+1.0.0.0
+DisplayExcelSelectionCoordinates
+_layouts/15/

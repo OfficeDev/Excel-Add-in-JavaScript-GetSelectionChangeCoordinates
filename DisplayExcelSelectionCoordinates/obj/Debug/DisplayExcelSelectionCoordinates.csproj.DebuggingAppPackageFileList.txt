@@ -1,0 +1,2 @@
+bin\Debug\OfficeAppManifests\DisplayExcelSelectionCoordinatesManifest.xml
+c:\users\jamescro\documents\visual studio 2013\Projects\DisplayExcelSelectionCoordinates\DisplayExcelSelectionCoordinates\bin\Debug\DisplayExcelSelectionCoordinates.debugapp

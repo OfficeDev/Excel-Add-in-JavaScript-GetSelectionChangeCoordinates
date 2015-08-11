@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisplayExcelSelectionCoordinates", "DisplayExcelSelectionCoordinates\DisplayExcelSelectionCoordinates.csproj", "{FE9DE119-D17C-4F15-8E30-8B6112C6D579}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisplayExcelSelectionCoordinatesWeb", "DisplayExcelSelectionCoordinatesWeb\DisplayExcelSelectionCoordinatesWeb.csproj", "{8897E776-9257-491C-A6FF-8ACCF4650F84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE9DE119-D17C-4F15-8E30-8B6112C6D579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE9DE119-D17C-4F15-8E30-8B6112C6D579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE9DE119-D17C-4F15-8E30-8B6112C6D579}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FE9DE119-D17C-4F15-8E30-8B6112C6D579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE9DE119-D17C-4F15-8E30-8B6112C6D579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE9DE119-D17C-4F15-8E30-8B6112C6D579}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8897E776-9257-491C-A6FF-8ACCF4650F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8897E776-9257-491C-A6FF-8ACCF4650F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8897E776-9257-491C-A6FF-8ACCF4650F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8897E776-9257-491C-A6FF-8ACCF4650F84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
