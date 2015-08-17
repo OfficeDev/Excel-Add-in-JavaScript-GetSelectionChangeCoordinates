@@ -39,7 +39,7 @@ The sample solution contains the following files:
 
 This add-in opens a blank Excel 2013 file. The user must first enter values in a contiguous rectangular collection of cells, thereby creating a table (matrix); enter values in the table; and then select the table. When the user then chooses **Set Binding**, the app binds to that table.
 
-Choosing **Set Binding** executes the `bindNamedItem` function, in the Home.js file. This function uses the [addFromSelectionAsync](http://msdn.microsoft.com/en-us/library/office/apps/fp142282(v=office.15)) method of the [Bindings](http://msdn.microsoft.com/en-us/library/fp160966(v=office.15)) object of the JavaScript API for Office to create a new binding of coercion type "matrix." The function then calls the `addEventHandler` function, which uses the [getByIdAsync](http://msdn.microsoft.com/en-us/library/fp161008(v=office.15)) method of the [Bindings](http://msdn.microsoft.com/en-us/library/fp160966(v=office.15)) object to identify the binding by its ID ("myMatrix") and add a handler for the [bindingSelectionChanged](http://msdn.microsoft.com/en-us/library/fp161088(v=office.15)) event of the **Binding** object to the binding. Then, when the user makes a new selection in the table, the event handler uses the [startRow](http://msdn.microsoft.com/en-US/library/fp179809), [startColumn](http://msdn.microsoft.com/en-US/library/fp179837), [columnCount](http://msdn.microsoft.com/en-US/library/fp179813), and [rowCount](http://msdn.microsoft.com/en-US/library/fp179805) properties of the [BindingSelectionChangedEventArgs](http://msdn.microsoft.com/library/9b879ce5-e59c-4059-b488-c51eddfdca5b) object to display information about the new selection in the task pane.
+Choosing **Set Binding** executes the `bindNamedItem` function, in the Home.js file. This function uses the [addFromSelectionAsync](http://msdn.microsoft.com/library/office/apps/fp142282(v=office.15)) method of the [Bindings](http://msdn.microsoft.com/library/fp160966(v=office.15)) object of the JavaScript API for Office to create a new binding of coercion type "matrix." The function then calls the `addEventHandler` function, which uses the [getByIdAsync](http://msdn.microsoft.com/library/fp161008(v=office.15)) method of the [Bindings](http://msdn.microsoft.com/library/fp160966(v=office.15)) object to identify the binding by its ID ("myMatrix") and add a handler for the [bindingSelectionChanged](http://msdn.microsoft.com/library/fp161088(v=office.15)) event of the **Binding** object to the binding. Then, when the user makes a new selection in the table, the event handler uses the [startRow](http://msdn.microsoft.com/library/fp179809), [startColumn](http://msdn.microsoft.com/library/fp179837), [columnCount](http://msdn.microsoft.com/library/fp179813), and [rowCount](http://msdn.microsoft.com/library/fp179805) properties of the [BindingSelectionChangedEventArgs](http://msdn.microsoft.com/library/9b879ce5-e59c-4059-b488-c51eddfdca5b) object to display information about the new selection in the task pane.
 
 <a name="build"></a>
 ## Build and debug ##
@@ -65,7 +65,7 @@ If the app fails to respond as described, try reloading it. (In the task pane, c
 <a name="additional-resources"></a>
 ## Additional resources ##
 
-- [Javascript API for Office](http://msdn.microsoft.com/en-us/library/fp142185(office.15).aspx)
+- [Javascript API for Office](http://msdn.microsoft.com/library/fp142185(office.15).aspx)
 
 
 ## Copyright
