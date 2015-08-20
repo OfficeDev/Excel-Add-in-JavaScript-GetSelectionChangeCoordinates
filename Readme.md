@@ -65,6 +65,7 @@ If the app fails to respond as described, try reloading it. (In the task pane, c
 <a name="additional-resources"></a>
 ## Additional resources ##
 
+- [More Add-in samples](https://github.com/OfficeDev?utf8=%E2%9C%93&query=-Add-in)
 - [Javascript API for Office](http://msdn.microsoft.com/library/fp142185(office.15).aspx)
 
 
